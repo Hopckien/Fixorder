@@ -1,12 +1,12 @@
-# REMBASE
+# FixOrder
 
 ## Описание:
-Веб-Приложение для работы с заказами и клиентами. Предназначено для маленьких сервисных центров, мастерских, СТО, домашнего и выездного сервиса. Веб - приложение для локальной сети. Подходит для Windows, Mac OS, Linux. Все данные сохраняются только **локально**, во избежание утечки. 
+Веб-Приложение для ведения учета заказов и ремонтов. Создавалось для небольших сервисных центров, мастерских, СТО, домашнего и выездного сервиса. Веб - приложение для локальной сети. 
 
 ## Стеки и методы:
-- Основной язык реализации - Python. Фрейвморк -  Django. 
-- Фронтенд использует Django Template Language, JavaScript,  Bootstrap, Select2, JQuery. 
-- База данных - SQLite3. Поддерживает ACID-транзакции, обеспечивая надёжность данных. Представляет из себя один файл. Управляется через ORM-Django. Хранится локально. 
+- Проект реализован на фрейвморке -  **Django**. 
+- Фронтенд использует **Django Template Language, JavaScript,  Bootstrap, Select2, JQuery.** 
+- База данных - **SQLite3.** 
 
 ## Особенности и функционал
 - Ведется база заказов. У заказов меняются статусы, вычисляются суммы к оплате, подставляется время выполнения.
@@ -17,14 +17,17 @@
 - Позволяет печатать документы о приеме и выдаче заказов.
 
 ## Скриншоты
-![Screeshots of app](/assets/images/01.png)
-![Screeshots of app](/assets/images/02.png)
-![Screeshots of app](/assets/images/03.png)
-![Screeshots of app](/assets/images/04.png)
-![Screeshots of app](/assets/images/05.png)
-![Screeshots of app](/assets/images/06.png)
-![Screeshots of app](/assets/images/07.png)
-![Screeshots of app](/assets/images/08.png)
+*Главное окно*
+![Screeshots of app](/assets/images/main.png)
 
-## Обратная связь
-@Sharky1111
+*Создание заказа*
+![Screeshots of app](/assets/images/CreateOrder.png)
+
+*База клиентов*
+![Screeshots of app](/assets/images/ClientBase.png)
+
+*Редактирование данных компании*
+![Screeshots of app](/assets/images/Company.png)
+
+### Обратная связь
+Telegram - ***@Hopckien***
