@@ -445,3 +445,7 @@ class СreateTypicalWork(CreateView):
     template_name = 'fixorder/new_typical_work.html'
     success_url = reverse_lazy('typical_works')
     extra_context = {'title': 'Добавить новую работу', 'header': 'Добавление новой работы'}
+
+class Testo(TemplateView):
+    template_name = 'fixorder/testo.html'
+    extra_context = {'title': 'Тесто', 'header': 'Добавление новой работы'}

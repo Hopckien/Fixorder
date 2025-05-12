@@ -25,6 +25,7 @@ urlpatterns = [
                 path('api/typical_work_data/', get_typical_work_data, name='typical_work_data'),
                 path('api/clients/<int:client_id>/', get_client_data, name='get_client_data'),
                 path('api/clients/create/', create_client, name='create_client'),
+                path('testo/', views.Testo.as_view(), name='testo'),
 
 
 
